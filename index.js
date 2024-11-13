@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const server = jsonServer.create();
 
-const router = jsonServer.router("./server/db.json");
+const router = jsonServer.router("db.json");
 
 server.use(jsonServer.defaults({}));
 server.use(jsonServer.bodyParser);
@@ -19,7 +19,7 @@ server.use(async (req, res, next) => {
 server.post("/login", (req, res) => {
   try {
     const { email, password } = req.body;
-    const db = JSON.parse(fs.readFileSync("./server/db.json", "UTF-8"));
+    const db = JSON.parse(fs.readFileSync("db.json", "UTF-8"));
     const { users = [] } = db;
 
     const userFromBd = users.find(
