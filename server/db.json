@@ -1,0 +1,556 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "ADMIN",
+      "password": "123",
+      "avatar": "https://sun9-18.userapi.com/s/v1/ig2/2YawPbsILYQ-TmbbJq3f1L-cdlCUbScF6nvsxkAZYBoyvwIKxV_r_9h5uwswjAfNL5dC2plq3tuk9nxsy4f_f9xJ.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080&from=bu&u=V3cWl4xCtBHug9yDBLtSPVNJ5OzpD-Ieg0WrGkipNYk&cs=604x604",
+      "email": "danila@mail.ru",
+      "name": "Danila"
+    },
+    {
+      "id": 2,
+      "name": "Nikita",
+      "email": "nikita@mail.ru",
+      "password": "123",
+      "role": "USER",
+      "avatar": "https://steamuserimages-a.akamaihd.net/ugc/872992670373300596/EB2C6465700D080FE6FF25A56DA144813FF9E079/?imw=512&amp;imh=509&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "name": "Xiaomi Redmi Note 12",
+      "description": "Смартфон Xiaomi Redmi Note 12 с объемом встроенной памяти 128 ГБ оборудован оптикой с 3 модулями и множеством опций. Они улучшат яркость в условиях кромешной темноты, повысят резкость участка кадра, распознают тексты и QR-коды. Незаметные глазу рамки усиливают впечатления от игры или просмотра фильма. Частота обновления 120 Гц гарантирует, что вы не столкнетесь с задержками при трансляции динамичных эпизодов.",
+      "price": 12999,
+      "rating": 4.5,
+      "views": 3561,
+      "categoryId": 1,
+      "brandId": 2,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/e978d20fdce0850bbe0fc19b62c2f230/9a7307f0e4f1d26281e24e0661c44ab004844c8b5ea1eabda37103f148af971d.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/e50ee031765f5d00c36423b3e89daca6/23ef4ab9b29f8b326a4505dbbf68bf85fbad7cdd04cb9455c1365466d1dac660.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/2f967f91f6b6549525bd8a69cab18bc7/2b8086b896919ac5e1be51f62a08a0c3d2f846c733252d1d9b82c1dd3e02cd43.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Разрешение экрана",
+          "description": "2400x1080"
+        },
+        {
+          "title": "Версия ОС",
+          "description": "Android 13"
+        },
+        {
+          "title": "Объем оперативной памяти",
+          "description": "4 ГБ"
+        },
+        {
+          "title": "Объем встроенной памяти",
+          "description": "128 ГБ"
+        },
+        {
+          "title": "Количество мегапикселей",
+          "description": "50+8+2 Мп"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Apple iPhone 11",
+      "description": "На передней панели смартфона Apple iPhone 11 присутствует впечатляющий ЖК‑дисплей Liquid Retina с диагональю 6.1 дюйма. Защита от воды при погружении на глубину до 2 метров до 30 минут.\nСмартфон Apple iPhone 11 стал обладателем системы из двух камер: сверхширокоугольной (13 мм) и широкоугольной (26 мм). Угол обзора 120° - область изображения в четыре раза больше. Поддержка Focus Pixels на всей матрице.",
+      "price": 44999,
+      "rating": 4,
+      "views": 9088,
+      "categoryId": 1,
+      "brandId": 1,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/9951aa6a99611e4df95c83529680ba0f/c73bba26affbf44a01db51117e576f246bfd88a6402b11546368887a7f8ad707.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/8b61fe7a3ec04643b8b1d9f27578f651/bfd2062ddf87ed9b59cb9a1efd78c86435bb82c8f0a3db3b40b56a500a5bc596.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/0d95277326a62011b4076e2a42d8eb0b/e0debca5125461d750890b54db6706d7ba8bc2b2bf0e71f706c238a3045b2a5e.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Разрешение экрана",
+          "description": "1792x828"
+        },
+        {
+          "title": "Версия ОС",
+          "description": "iOS 13"
+        },
+        {
+          "title": "Объем оперативной памяти",
+          "description": "4 ГБ"
+        },
+        {
+          "title": "Объем встроенной памяти",
+          "description": "128 ГБ"
+        },
+        {
+          "title": "Количество мегапикселей",
+          "description": "12+12 Мп"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tecno Megabook T1",
+      "description": "Этот ноутбук создан для тех, кто хочет получить компьютерное устройство с наиболее востребованным функционалом. Модель полностью удовлетворяет данным требованиям. Надежный накопитель предоставляет вам возможности для долговременного хранения необходимой виртуальной информации. Устройство оборудовано веб-камерой и микрофоном, благодаря которым вы сможете организовывать видеоконференции с партнерами по бизнесу и коллегами по работе.",
+      "price": 51999,
+      "rating": 5,
+      "views": 1501,
+      "categoryId": 2,
+      "brandId": 4,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/52c79dd1715bc742f17c357fdb68c07b/998c67396ab5d46c76207ede7c98c803c9e92e840bb27bafedc33b6b7c967afe.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/33b3643f62f31701aae9fb5559d04076/978ec008c9e88f71429c97fb24035794033a9f04fbffb61ef3d959c6f9dba8c2.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/735d4de1cb0ed82e97a1badeec462f90/73e19b08407988663e17b5abd8abe23a14ae3c402eadc0174e4ce6438e80d91a.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Разрешение экрана",
+          "description": "1920x1080"
+        },
+        {
+          "title": "Диагональ экрана (дюйм)",
+          "description": "15.6"
+        },
+        {
+          "title": "Модель процессора",
+          "description": "Intel Core i5-12450H"
+        },
+        {
+          "title": "Объем оперативной памяти",
+          "description": "16 ГБ"
+        },
+        {
+          "title": "Объем встроенной памяти",
+          "description": "512 ГБ"
+        },
+        {
+          "title": "Количество мегапикселей",
+          "description": "6 Мп"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "HONOR MagicBook X 16 2024 Pro",
+      "description": "Ноутбук HONOR MagicBook X 16 2024 Pro Born-G5851A обладает тонким и легким корпусом из металла серого цвета, что делает его удобным для транспортировки. 8-ядерный процессор Intel Core i5 производит все вычисления в 12-поточном режиме, благодаря чему исключены зависания и торможения системы при высоких нагрузках. Система охлаждения в виде вентилятора с ультратонкими S-образными лопастями и двойной медной трубки быстро рассеивает тепло, что предотвращает перегрев всех компонентов ноутбука и обеспечивает его стабильную работу.",
+      "price": 74999,
+      "rating": 3.5,
+      "views": 4590,
+      "categoryId": 2,
+      "brandId": 3,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/0b53371f80b45eb55f13cac2121fb064/0346401d8f9bd4d1fd4a3e89040234e3de97bed7b06f77a284547eb572afedbc.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/9eb7c38a922a220445f12f0f0ac56c0b/86bc58c78db7348921eb8b823e628c8aa913fcba5207fbef5d3213f28790fd9d.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/f16b8ef3d0af38ddeb9b73dd7b6bec9c/c920d82376a23a8b22942c37aced67e2137bb49cf2f91266e1deac693cf0eb98.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Разрешение экрана",
+          "description": "1920x1200"
+        },
+        {
+          "title": "Диагональ экрана (дюйм)",
+          "description": "16"
+        },
+        {
+          "title": "Модель процессора",
+          "description": "Intel Core i5-13420H"
+        },
+        {
+          "title": "Объем оперативной памяти",
+          "description": "16 ГБ"
+        },
+        {
+          "title": "Объем встроенной памяти",
+          "description": "512 ГБ"
+        },
+        {
+          "title": "Количество мегапикселей",
+          "description": "10 Мп"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi Smart Band 9",
+      "description": "Фитнес-браслет Xiaomi Smart Band 9 совместим со смартфонами на платформе iOS 12, Android 8.0 и более поздних версий. Сенсорный дисплей с разрешением 490x192 dpi сохраняет четкость картинок и надписей при любом освещении. Встроенные датчики отслеживают пульс, уровень кислорода в крови, контролируют длительность и качество сна. Батарея выдерживает до трех недель активной работы без подзарядки.",
+      "price": 3699,
+      "rating": 4,
+      "views": 63,
+      "categoryId": 3,
+      "brandId": 2,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/db1c7a9cbe26cd245c2f5a9e5afa83aa/dec5492f871be7e523f754032a0bd0a09da131892bf10bfdd4faf8e2999e862a.png.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/5b1b9026ef213350023fd7e6d5c25ffd/75cbfcb106a4b3c3c2caaeb61d03e10a0ae515caa81a9b74cc6cf373ca75130b.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/e8238939d6d5cb8609423b7f3fc96106/efc5b71f7e17dd08fd720f4c9d128da3a65c39e1c0fc5337a5757728d111b7d3.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Разрешение экрана",
+          "description": "490x192"
+        },
+        {
+          "title": "Диагональ экрана (дюйм)",
+          "description": "1.62"
+        },
+        {
+          "title": "Цвет корпуса",
+          "description": "Черный"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Logitech K280E",
+      "description": "Проводная клавиатура Logitech Corded Keyboard K280e базируется на классической конструкции с элементами дизайна Hi-Tech. Нажатие клавиш под удобным углом достигается благодаря выдвижным стойкам и удлиненной лицевой части. Устройство оснащается 103 клавишами, в том числе и цифровым блоком для удобства работы. Мембранный тип устройства предусматривает наличие силиконовых прокладок, обеспечивающих соприкосновение пластиковых клавиш с контактной поверхностью для быстрого отклика, а также их малого хода.",
+      "price": 2999,
+      "rating": 5,
+      "views": 151,
+      "categoryId": 5,
+      "brandId": 5,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/e99f9c523eb9fe9296f8523883101357/56d3bfe17ced0648d2a0b1032edf0879bda3e2f9fcc09bab6edac88ab1cafdbc.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/d8bbca91664f29d98b6562d6a72f4adf/f4048a400df36f2249272e3fa55f93edd937ace15d54ba07da2b58ca8f40f431.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/316a8c1a9a8bdf54f6b10e8131f19ddb/773268590d05422ec234cd44b0e5b8f1e3cbfdb3cb1c015b6aa30aea516ebb00.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Общее количество клавиш",
+          "description": "103"
+        },
+        {
+          "title": "Цифровой блок",
+          "description": "Есть"
+        },
+        {
+          "title": "Цвет корпуса",
+          "description": "Черный"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Apple Magic Keyboard",
+      "description": "Клавиатура беспроводная Apple Magic Keyboard [MK2A3] в корпусе из металла и пластика относится к островному типу. Наличие расстояния между клавишами предупреждает погрешности ввода. Отсутствие цифрового блока уменьшает размеры аксессуара для компактного размещения на рабочем столе.",
+      "price": 14399,
+      "rating": 4,
+      "views": 12,
+      "categoryId": 5,
+      "brandId": 1,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/4779904e8cdbda13baeb1a053ced86d1/1788e59181736b9c66b6c3b3e9d96c736978dfce24e60f5ab1e952f4f165a67f.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/7ff5aa5f7e8fc65380ca97dc88b85e6d/1ad3eda6ea694038e17521c6340ea29c819c650b456f3dffb2d0300aade55cdd.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/9bdcd49df949f9af07aee6c939c9e7f2/40cb5da755d22f57633527450fc7fddf24ddff1de8144109646d6ce349df9da2.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Общее количество клавиш",
+          "description": "79"
+        },
+        {
+          "title": "Цифровой блок",
+          "description": "Нет"
+        },
+        {
+          "title": "Цвет корпуса",
+          "description": "Белый"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Xiaomi Redmi Buds 5 Pro",
+      "description": "Наушники TWS Xiaomi Redmi Buds 5 Pro представлены в черном цвете. Благодаря закрытой акустической системе и активному шумоподавлению до 52 дБ они обеспечивают погружение в аудио без постороннего шума в разной окружающей обстановке. Динамические драйверы 10 мм с керамическим покрытием и низкочастотные вуферы 11 мм с титановой облицовкой создают насыщенный детализированный звук. Интегрированный микрофон передает чистый голос при звонках.",
+      "price": 7499,
+      "rating": 3,
+      "views": 42,
+      "categoryId": 4,
+      "brandId": 2,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/40ecb5cbc2d2932d888ab44df3138f05/4fbb21ed20a2a737734a2449f59f08ccf438311488f4dd5c0ca4f0e4f9ac6351.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/49fe14c96b4df33177967b18072c7e96/1ff8e5f7bd2493dc3f1218545d3ccf3cd79d46ec1a341cfbaad918291718cca5.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/335cac13d3f668e11698f31820512fb6/e6ad379853807ff0460fb8641aa700d57d1b955e5761df744e2ed8c07f340cd7.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Версия Bluetooth",
+          "description": "5.3"
+        },
+        {
+          "title": "Микрофон",
+          "description": "Есть"
+        },
+        {
+          "title": "Цвет корпуса",
+          "description": "Черный"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Logitech G413",
+      "description": "Клавиатура проводная Logitech G413 [920-008312] обладает подсветкой клавиш, которая добавляет удобства при обработке данных в условиях слабого освещения. Переключатели Logitech Romer-G Tactile отличаются быстрым откликом на касания и отсутствием громких звуков во время нажатия. Программируемые кнопки открывают мгновенный доступ к игровым действиям и другому функционалу.",
+      "price": 6799,
+      "rating": 4.8,
+      "views": 672,
+      "categoryId": 5,
+      "brandId": 5,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/cedbf0960477699dd609628263c32c19/a6f8fb0bf231e1a6fa5f2cc772131b8618616a4a9eb3673fa39e298565929041.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/c1f59e238a3a19b90a1603c49c43b1e6/ec95c8c5e10f5461bd0df5ede8cf61276b251f2f35cb5fcd134e1a799fec9705.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/6eb4a2f7ebf814b8751299a25466d326/9092cc0c49490a29d5bbb8b70af38f9ff299d27e5e899edf8fc1cf147e7fe675.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Длина кабеля",
+          "description": "1.8 м"
+        },
+        {
+          "title": "Цифровой блок",
+          "description": "Есть"
+        },
+        {
+          "title": "Основной цвет",
+          "description": "Черный"
+        },
+        {
+          "title": "Общее количество клавиш",
+          "description": "104"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "HONOR Watch 4",
+      "description": "Смарт-часы HONOR Watch 4 в алюминиевом корпусе поддерживают дыхательные упражнения, которые позволяют снять напряжение и сконцентрировать внимание. Встроенные датчики контролируют пульс, содержание кислорода в крови, уровень стресса. Информация отображается на AMOLED-дисплее диагональю 1.75 дюйма. От одного заряда аксессуар работает на протяжении 336 ч.",
+      "price": 14999,
+      "rating": 3.9,
+      "views": 32,
+      "categoryId": 3,
+      "brandId": 3,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/f4151c5e62f11d077c5e6cc9a8a9e8bb/91ff253e4dd8752867585f8d57cb27d4371ace9f5d3126403cc6915cc8978d8a.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/eec18c34f2aa6ec339b0d36ec1484537/0d24d67d5b3c94d2c38a079bc18ded0cb5eba8337506e9f92e6d283fd18e731c.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/97ea0b58f1393eb59402c604c2aea829/c0e3c1ae2a98af9faad1eec06303845bb5375fb0b6c011adb86250457d60b947.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Цвет корпуса",
+          "description": "золотистый"
+        },
+        {
+          "title": "Цвет ремешка",
+          "description": "белый"
+        },
+        {
+          "title": "Материал корпуса",
+          "description": "алюминий"
+        },
+        {
+          "title": "Разрешение",
+          "description": "450x390"
+        },
+        {
+          "title": "Плотность пикселей",
+          "description": "340 ppi"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Xiaomi Redmi Watch 3 Active",
+      "description": "Смарт-часы Xiaomi Redmi Watch 3 Active представлены в серебристом металлическом корпусе с эластичным силиконовым ремешком. Большой дисплей 1.83” с прочным изогнутым стеклом радует яркой и насыщенной картинкой при любом освещении. Возможность смены дизайна циферблата позволяет подбирать тему на ваш вкус.",
+      "price": 3299,
+      "rating": 4.9,
+      "views": 678,
+      "categoryId": 3,
+      "brandId": 2,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/28f574802dfcd1d51db67808669b6b73/8e1e94ff3208a2570ea65978eb7768e6f47239b59ac64529396e89bc969c99dc.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/552dbf190e638a20a8bf4f4970a484c3/45ad80ecc59278de913a73812720ecb954a7526be1d3a723f0d5196f2b3a54e1.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/a9958dcc37c80f04f16622f0feda93c6/40ed213f9c7d6961808306fa9e862b5c9c7d3ae1f93ada19e58702d3b6028159.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Цвет корпуса",
+          "description": "золотистый"
+        },
+        {
+          "title": "Цвет ремешка",
+          "description": "белый"
+        },
+        {
+          "title": "Материал корпуса",
+          "description": "пластик"
+        },
+        {
+          "title": "Разрешение",
+          "description": "280x240"
+        },
+        {
+          "title": "Плотность пикселей",
+          "description": "201 ppi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Apple Watch Series 8 41mm",
+      "description": "Смарт-часы Apple Watch Series 8 41mm – стильный, функциональный и надежный помощник. Модель отличается датчиком температуры, множеством дизайнов циферблатов на выбор и удобным приложением для тренировок. На квадратном дисплее OLED передается четкая и яркая картинка, а сенсорная отзывчивая панель позволяет легко управлять прикосновениями.",
+      "price": 34699,
+      "rating": 4.7,
+      "views": 1002,
+      "categoryId": 3,
+      "brandId": 1,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/421f2efe6f1ca8c1a35b78a695cd9d0b/2f6c533a00a70e71ca727d1f22167bf51375b1ad9b90cd4c8bdafc28d2f4de49.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/b2b1603c4e91f1f4cb23b1e7bfe0e6bc/f62c5c392512dea32ceb53f9d0bbdc52a698132d1d650f75f66512e5e3658358.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/db4930e0c9c13b9a81db242a56674378/ba3d45510c6a2ebd8f0a9460009be02274678246472d0470f4fa796ec9001dbc.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Цвет корпуса",
+          "description": "черный"
+        },
+        {
+          "title": "Цвет ремешка",
+          "description": "черный"
+        },
+        {
+          "title": "Материал корпуса",
+          "description": "алюминий"
+        },
+        {
+          "title": "Разрешение",
+          "description": "430x352"
+        },
+        {
+          "title": "Плотность пикселей",
+          "description": "326 ppi"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Apple AirPods Pro 2",
+      "description": "Наушники TWS Apple AirPods Pro 2 обладают силиконовыми амбушюрами, которые обеспечивают плотное прилегание к ушному каналу. Спрятанный в пластиковом корпусе микрофон служит для приема вызовов. Защита по стандарту IPX4 исключает риск негативного воздействия брызг.",
+      "price": 26999,
+      "rating": 4.3,
+      "views": 6512,
+      "categoryId": 4,
+      "brandId": 1,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/4def83ad95b41a237a84dd96a847d056/78eb954f5260420ae21d2627aae0fb6ee30ed7082c2777c67dfefc61f461070d.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/e3e37ed3413cbb09aeca01787cf79cce/f3bff68a47153e301acbfde7b4c594145181645d08845191816e2035e0402690.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/2fc867666404e64caf03e0d97462ca69/ab9bbf2792734b6c967dde232bcc0fa303a059b3fff797def342203d5398916a.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Основной цвет наушников",
+          "description": "белый"
+        },
+        {
+          "title": "Материал амбушюр",
+          "description": "силикон"
+        },
+        {
+          "title": "Версия Bluetooth",
+          "description": "5.3"
+        },
+        {
+          "title": "Время работы",
+          "description": "6 ч"
+        },
+        {
+          "title": "Поддержка беспроводной зарядки ",
+          "description": "есть"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Honor Choice Open-Ear",
+      "description": "Наушники TWS Honor Choice Open-Ear предусматривают в своей конструкции клипсу для надежной фиксации на ухе. Устройство обладает степенью пылевлагозащиты IP54, благодаря чему не боится влаги и пота и может использоваться во время активных занятий спортом.",
+      "price": 4999,
+      "rating": 4.1,
+      "views": 4,
+      "categoryId": 4,
+      "brandId": 3,
+      "images": [
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/ca943bf837fd4b1f301d1bd05b6bc29e/f0de3e3dc308ceb9b1eb13667b2e0944e3bb364a6a206f6b53022bb4ef4bf13d.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st4/fit/500/500/589af4b3119f356484b6b4de0547e103/6a02fa080a263d32b31e3cd77be66da8a34cf036ec60742ae98dbeebeed0c0bb.jpg.webp",
+        "https://c.dns-shop.ru/thumb/st1/fit/500/500/210cd8c26fb187f63eb2cdbb9744689b/80739a88f2c7f8f0b90079115fbcc245971d974d67487bd95babf2199316695e.jpg.webp"
+      ],
+      "info": [
+        {
+          "title": "Основной цвет наушников",
+          "description": "черный"
+        },
+        {
+          "title": "Материал амбушюр",
+          "description": "силикон"
+        },
+        {
+          "title": "Версия Bluetooth",
+          "description": "5.3"
+        },
+        {
+          "title": "Время работы",
+          "description": "7 ч"
+        },
+        {
+          "title": "Поддержка беспроводной зарядки ",
+          "description": "нет"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Смартфоны"
+    },
+    {
+      "id": 2,
+      "name": "Ноутбуки"
+    },
+    {
+      "id": 3,
+      "name": "Смарт-часы"
+    },
+    {
+      "id": 4,
+      "name": "Наушники"
+    },
+    {
+      "id": 5,
+      "name": "Клавиатуры"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi"
+    },
+    {
+      "id": 3,
+      "name": "Honor"
+    },
+    {
+      "id": 4,
+      "name": "Tecno"
+    },
+    {
+      "id": 5,
+      "name": "Logitech"
+    }
+  ]
+}
