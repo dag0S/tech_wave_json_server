@@ -1,6 +1,3 @@
-// import jsonServer from "json-server";
-// import fs from "fs";
-
 const jsonServer = require("json-server");
 const fs = require("fs");
 
