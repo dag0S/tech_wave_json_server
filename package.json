@@ -8,10 +8,8 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "json-server": "^0.17.4"
-  },
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "json-server": "^0.17.4"
   }
 }
