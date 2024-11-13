@@ -1,10 +1,14 @@
 const jsonServer = require("json-server");
 const fs = require("fs");
+const path = require("path");
+const cors = require("cors");
 
 const server = jsonServer.create();
 
-const router = jsonServer.router("db.json");
+const db = JSON.parse(fs.readFileSync(path.join(__dirname, "db.json")));
+const router = jsonServer.router(db);
 
+server.use(cors());
 server.use(jsonServer.defaults({}));
 server.use(jsonServer.bodyParser);
 
@@ -12,8 +16,7 @@ server.use(jsonServer.bodyParser);
 server.post("/login", (req, res) => {
   try {
     const { email, password } = req.body;
-    const db = JSON.parse(fs.readFileSync("db.json", "UTF-8"));
-    const { users = [] } = db;
+    const users = router.db.get("users").value();
 
     const userFromBd = users.find(
       (user) => user.email === email && user.password === password
